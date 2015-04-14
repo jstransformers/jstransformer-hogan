@@ -26,7 +26,7 @@ function assertEqual(output, expected) {
 
 try {
   console.log('\ncompile():');
-  output = transform.compile(input, options).render(locals);
+  output = transform.compile(input, options)(locals);
   assertEqual(output, expected);
 } catch (e) {
   failed = true;

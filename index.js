@@ -8,6 +8,6 @@ exports.outputFormat = 'html';
 
 exports.compile = function (str, options) {
   options = options || {};
-  return hogan.compile(str, options);
+  var obj = hogan.compile(str, options);
+  return obj.render.bind(obj);
 }
-
