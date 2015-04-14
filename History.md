@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.0.2: 2015-02-15
+## v0.0.2: 2015-04-13
 
-- Mark output format as XML
+- Fix module
 
 ## v0.0.1: 2015-02-13
 
