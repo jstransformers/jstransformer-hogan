@@ -1,27 +1,33 @@
 {
   "name": "jstransformer-hogan",
-  "version": "0.0.2",
-  "description": "Transform Hogan template into HTML.",
+  "version": "0.1.0",
+  "description": "Hogan support for JSTransformers.",
   "keywords": [
-    "jstransformer",
-    "hogan"
+    "jstransformer"
+  ],
+  "files": [
+    "index.js"
   ],
   "dependencies": {
     "hogan.js": "~3.0.2"
   },
   "devDependencies": {
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.5"
+    "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "node test",
-    "coverage": "istanbul cover test",
-    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
+  },
+  "engines": {
+    "node": ">=0.10.36"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-hogan.git"
   },
-  "author": "Hemanth.HM <hemanth.hm@gmail.com>",
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
   "license": "MIT"
 }
