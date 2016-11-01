@@ -19,7 +19,7 @@
     "test": "test-jstransformer"
   },
   "engines": {
-    "node": ">= 4"
+    "node": ">=4"
   },
   "repository": {
     "type": "git",
