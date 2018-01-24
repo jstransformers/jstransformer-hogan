@@ -1,5 +1,7 @@
 # jstransformer-hogan
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-hogan.svg)](https://greenkeeper.io/)
+
 [Hogan.js](https://www.npmjs.com/package/hogan.js) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-hogan/master.svg)](https://travis-ci.org/jstransformers/jstransformer-hogan)
